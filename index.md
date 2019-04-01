@@ -1,19 +1,37 @@
-## Projeto Compiladores
+## Welcome to GitHub Pages
 
 O objetivo do projeto ao final do curso é construir um compilador utilizando uma linguagem baseado na linguagem C.
 
 Um código de entrada padrão utilizado para testes iniciais foi um que recebe um array e faz uma busca sequencial por um número específico.
 
-### Código
+### Markdown
 
-#include <stdio.h>
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-int main(void) {
+```markdown
+Syntax highlighted code block
 
-int i; int tam = 5; int arr[] = {1,7,35,1,9}; int num = 1; int encont = 0;
+# Header 1
+## Header 2
+### Header 3
 
-for(i=0; i<tam; i++) { if(arr[i] == num) { printf("\nNumero encontrado na posicao %d", i+1); encont = 1; } }
+- Bulleted
+- List
 
-if(!encont) printf("Numero nao encontrado!!!");
+1. Numbered
+2. List
 
-return 0; }
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edantasn/proj-comp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
