@@ -4,9 +4,11 @@ O objetivo do projeto ao final do curso é construir um compilador utilizando um
 
 Um código de entrada padrão utilizado para testes iniciais foi um que recebe um array e faz uma busca sequencial por um número específico.
 
-### Especificação Linguagem
+### Especificação da Linguagem
 
 A linguagem implementada trabalha com inteiros INT, expressões, soma subtração, divisão  e multipicação de dois termos.
+Definir:
+MAIN, INT, IF, ELSE, WHILE, FOR, RETURN.
 
 ### Código
 
